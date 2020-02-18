@@ -1,9 +1,11 @@
 #include <iostream>
+#include <Menus/menus.h>
 
 using namespace std;
 
 int main()
 {
-    cout << "asdfhkjasdh" << endl;
+    Menus menu;
+    menu.menu_principal();
     return 0;
 }
